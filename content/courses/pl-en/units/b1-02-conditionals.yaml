@@ -1,0 +1,105 @@
+# Unit file — see CONTRIBUTING.md. Never change an item's id (progress is stored by it).
+id: b1-02-conditionals
+level: B1
+title: First and second conditionals
+titlePl: Pierwszy i drugi tryb warunkowy
+intro: "**First conditional** – a real, likely situation: *If + present simple, will + verb* (*If it rains, I'll stay at home*). Note: no \"will\" after *if* or *when*, even though Polish uses the future there (*Jeśli będzie padać*). **Second conditional** – an unreal or unlikely situation now: *If + past simple, would + verb* (*If I had more money, I would travel*). This is the Polish *gdybym miał... to bym...*. With \"be\", *If I were you* is standard."
+introPl: "**Pierwszy tryb warunkowy** – realna sytuacja: *If + Present Simple, will + czasownik* (*If it rains, I'll stay at home* – Jeśli będzie padać, zostanę w domu). Uwaga: po *if* i *when* nie używamy \"will\", choć po polsku mówimy w czasie przyszłym (\"jeśli będzie\"). **Drugi tryb warunkowy** – sytuacja nierealna lub mało prawdopodobna teraz: *If + Past Simple, would + czasownik* (*If I had more money, I would travel* – Gdybym miał więcej pieniędzy, podróżowałbym). To odpowiednik polskiego \"gdybym... to bym...\". Z \"be\" mówimy *If I were you* (Na twoim miejscu)."
+items:
+  - id: b1-02-unless
+    kind: word
+    en: unless
+    pl: chyba że
+    plAlt: [ jeśli nie, o ile nie ]
+    example:
+      en: We'll be late unless we leave now.
+      pl: Spóźnimy się, chyba że wyjdziemy teraz.
+    note: "\"Unless\" already means \"if not\" – don't add another negative."
+    notePl: '"Unless" już znaczy "jeśli nie" – nie dodawaj drugiego przeczenia.'
+  - id: b1-02-as-soon-as
+    kind: phrase
+    en: as soon as
+    pl: jak tylko
+    plAlt: [ gdy tylko, zaraz jak ]
+    example:
+      en: I'll call you as soon as I arrive.
+      pl: Zadzwonię do ciebie, jak tylko przyjadę.
+    note: Present tense after "as soon as", not "will arrive".
+    notePl: Po "as soon as" czas teraźniejszy, nie "will arrive".
+  - id: b1-02-in-case
+    kind: phrase
+    en: in case
+    pl: na wypadek gdyby
+    plAlt: [ w razie gdyby, na wszelki wypadek ]
+    example:
+      en: Take an umbrella in case it rains.
+      pl: Weź parasol na wypadek, gdyby padało.
+  - id: b1-02-if-i-were-you
+    kind: phrase
+    en: if I were you
+    enAlt: [ if I was you ]
+    pl: na twoim miejscu
+    plAlt: [ gdybym był tobą, gdybym była tobą ]
+    example:
+      en: If I were you, I'd apologise.
+      pl: Na twoim miejscu przeprosiłbym.
+  - id: b1-02-would
+    kind: word
+    en: would
+    pl: by (tryb przypuszczający)
+    plAlt: [ by, bym ]
+    example:
+      en: I would buy a house by the sea.
+      pl: Kupiłbym dom nad morzem.
+    note: The Polish particle "by" (kupiłbym) = would + verb.
+    notePl: Polskie "-bym/-byś/-by" (kupiłbym) = would + czasownik.
+  - id: b1-02-provided
+    kind: phrase
+    en: provided that
+    enAlt: [ providing that, as long as ]
+    pl: pod warunkiem że
+    plAlt: [ o ile ]
+    example:
+      en: You can go, provided that you're back by ten.
+      pl: Możesz iść, pod warunkiem że wrócisz do dziesiątej.
+  - id: b1-02-what-if
+    kind: phrase
+    en: what if
+    pl: a co jeśli
+    plAlt: [ co jeśli, "a co, gdyby" ]
+    example:
+      en: What if the train is late?
+      pl: A co, jeśli pociąg się spóźni?
+  - id: b1-02-s-rain
+    kind: sentence
+    en: If it rains, I'll stay at home.
+    enAlt: [ "If it rains, I will stay at home.", "If it rains, I'll stay home.", "If it rains, I will stay home.", I'll stay at home if it rains. ]
+    pl: Jeśli będzie padać, zostanę w domu.
+    plAlt: [ "Jeżeli będzie padać, zostanę w domu.", "Jeśli będzie padało, zostanę w domu.", "Jak będzie padać, zostanę w domu." ]
+    note: Not "If it will rain".
+    notePl: Nie "If it will rain" – po "if" czas teraźniejszy.
+  - id: b1-02-s-money
+    kind: sentence
+    en: If I had more money, I would travel more.
+    enAlt: [ "If I had more money, I'd travel more.", I would travel more if I had more money., I'd travel more if I had more money. ]
+    pl: Gdybym miał więcej pieniędzy, więcej bym podróżował.
+    plAlt: [ "Gdybym miała więcej pieniędzy, więcej bym podróżowała.", "Gdybym miał więcej pieniędzy, podróżowałbym więcej.", "Gdybym miała więcej pieniędzy, podróżowałabym więcej." ]
+    note: Not "If I would have" – no "would" in the if-clause.
+    notePl: Nie "If I would have" – w części z "if" nie ma "would".
+  - id: b1-02-s-when-get-home
+    kind: sentence
+    en: I'll text you when I get home.
+    enAlt: [ I will text you when I get home., I'll message you when I get home., I will message you when I get home., I'll write to you when I get home. ]
+    pl: Napiszę do ciebie, kiedy wrócę do domu.
+    plAlt: [ "Napiszę ci, kiedy wrócę do domu.", "Napiszę do ciebie, jak wrócę do domu.", "Napiszę ci, jak wrócę do domu.", "Napiszę do ciebie, gdy wrócę do domu." ]
+  - id: b1-02-s-were-you
+    kind: sentence
+    en: If I were you, I wouldn't do that.
+    enAlt: [ "If I were you, I would not do that.", "If I was you, I wouldn't do that.", I wouldn't do that if I were you. ]
+    pl: Na twoim miejscu nie robiłbym tego.
+    plAlt: [ Na twoim miejscu nie robiłabym tego., Na twoim miejscu bym tego nie robił., Na twoim miejscu bym tego nie robiła. ]
+  - id: b1-02-s-could-fly
+    kind: sentence
+    en: What would you do if you won the lottery?
+    pl: Co byś zrobił, gdybyś wygrał na loterii?
+    plAlt: [ "Co byś zrobiła, gdybyś wygrała na loterii?", "Co byś zrobił, gdybyś wygrał w lotto?", "Co byś zrobiła, gdybyś wygrała w lotto?" ]

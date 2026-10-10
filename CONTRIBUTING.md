@@ -5,25 +5,27 @@ no gems, no guilt-trip notifications, just what actually helps you remember.
 
 ## The most valuable contribution: content
 
-Courses are plain TypeScript files, so you don't need to know React to help.
+Courses are plain YAML files in `content/courses/<from>-<to>/` — you can edit them right on github.com,
+no setup needed.
 
 ### Fix or improve existing content
 Found an unnatural sentence, a wrong translation, or a missing accepted answer? Edit the unit file in
-`src/content/units/` and open a PR. Native-speaker review of the Polish and English is very welcome.
+`content/courses/pl-en/units/` and open a PR. Native-speaker review of the Polish and English is very welcome.
 
 - Add accepted alternatives to `enAlt` / `plAlt` rather than changing `en` / `pl`.
 - **Never change an item's `id`** — learners' progress is stored by id.
 
 ### Add a unit
-1. Copy an existing unit, e.g. `src/content/units/a2-01-past-simple.ts`, to a new file named
-   `<level>-<nn>-<slug>.ts` (e.g. `b1-05-relative-clauses.ts`). It is picked up automatically.
-2. Follow the schema in `src/content/types.ts`:
+1. Copy an existing unit, e.g. `content/courses/pl-en/units/a2-01-past-simple.yaml`, to a new file named
+   `<level>-<nn>-<slug>.yaml` (e.g. `b1-05-relative-clauses.yaml`) and set its `id` to the same name.
+   It is picked up automatically.
+2. Follow the fields used in existing units (full schema: `src/content/types.ts`):
    - 10–14 items, mixing `word`, `phrase` and a few short `sentence`s that reuse the unit's words.
    - Words/phrases need an `example` whose English contains the item verbatim (used for fill-the-gap).
    - `intro` in English; `introPl` in Polish for anything grammatical.
    - `note` / `notePl` only for real pitfalls (false friends, irregular forms…).
    - Prefer high-frequency, useful vocabulary over rare words.
-3. Run `npm run build` to type-check.
+3. Run `npm run validate` — it explains any problem in plain words (also runs as part of `npm run build`).
 
 ### New language pairs
 The engine is language-agnostic, but content and some UI strings currently assume Polish → English.

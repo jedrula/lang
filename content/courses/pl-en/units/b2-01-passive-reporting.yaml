@@ -1,0 +1,116 @@
+# Unit file — see CONTRIBUTING.md. Never change an item's id (progress is stored by it).
+id: b2-01-passive-reporting
+level: B2
+title: Passive voice and reporting
+titlePl: Strona bierna i mowa zależna
+intro: 'The **passive** is *be* + past participle: *The bridge was built in 1900*. English uses it far more than Polish, where we often prefer impersonal forms (*Most zbudowano w 1900*, *Mówi się, że...*). For reporting, formal English uses *It is said that...* or *He is said to be...*. In **reported speech**, tenses usually move back: *"I am tired"* → *She said she was tired*. Polish keeps the original tense (*Powiedziała, że jest zmęczona*), so this backshift is a classic trap. Also: *say something* but *tell **someone** something*.'
+introPl: '**Strona bierna** to *be* + III forma: *The bridge was built in 1900* (Most zbudowano w 1900 roku). Angielski używa jej dużo częściej niż polski, który woli formy bezosobowe (*zbudowano*, *mówi się*). W stylu formalnym relacjonujemy przez *It is said that...* albo *He is said to be...* (Mówi się, że on jest...). W **mowie zależnej** czasy zwykle "cofają się": *"I am tired"* → *She said she was tired*. Po polsku zostawiamy czas oryginalny (*Powiedziała, że jest zmęczona*), dlatego to częsty błąd. Pamiętaj też: *say something*, ale *tell **someone** something*.'
+items:
+  - id: b2-01-is-said
+    kind: phrase
+    en: it is said that
+    enAlt: [ it's said that ]
+    pl: mówi się, że
+    plAlt: [ podobno, "powiada się, że" ]
+    example:
+      en: It is said that the castle is haunted.
+      pl: Mówi się, że w zamku straszy.
+  - id: b2-01-is-believed
+    kind: phrase
+    en: is believed to
+    pl: uważa się, że
+    plAlt: [ "sądzi się, że", "przypuszcza się, że" ]
+    example:
+      en: The painting is believed to be a fake.
+      pl: Uważa się, że obraz jest podróbką.
+  - id: b2-01-was-built
+    kind: phrase
+    en: was built
+    pl: został zbudowany
+    plAlt: [ zbudowano, została zbudowana, zostało zbudowane ]
+    example:
+      en: This church was built in the 14th century.
+      pl: Ten kościół zbudowano w XIV wieku.
+  - id: b2-01-get-hair-cut
+    kind: phrase
+    en: get my hair cut
+    enAlt: [ have my hair cut ]
+    pl: obciąć włosy (u fryzjera)
+    plAlt: [ obciąć włosy, ostrzyc się, pójść do fryzjera ]
+    example:
+      en: I need to get my hair cut before the wedding.
+      pl: Muszę obciąć włosy przed weselem.
+    note: "Causative have/get + object + past participle: someone else does it for you."
+    notePl: 'Konstrukcja sprawcza: "I got my hair cut" = obcięto mi włosy (fryzjer), a nie sam je obciąłem. "I cut my hair" znaczy, że zrobiłem to sam.'
+  - id: b2-01-claim
+    kind: word
+    en: claim
+    pl: twierdzić
+    plAlt: [ utrzymywać, twierdzenie ]
+    example:
+      en: He claims that he was at home all night.
+      pl: Twierdzi, że był w domu całą noc.
+  - id: b2-01-deny
+    kind: word
+    en: deny
+    pl: zaprzeczać
+    plAlt: [ zaprzeczyć, wypierać się ]
+    example:
+      en: She continues to deny taking the money.
+      pl: Nadal zaprzecza, że wzięła pieniądze.
+    note: '"Deny" + -ing or + that-clause.'
+    notePl: '"Deny" + forma -ing (deny taking) albo + that.'
+  - id: b2-01-admit
+    kind: word
+    en: admit
+    pl: przyznać
+    plAlt: [ przyznawać, przyznać się ]
+    example:
+      en: He refused to admit his mistake.
+      pl: Odmówił przyznania się do błędu.
+  - id: b2-01-according-to
+    kind: phrase
+    en: according to
+    pl: według
+    plAlt: [ zgodnie z, wg ]
+    example:
+      en: According to the report, prices will rise.
+      pl: Według raportu ceny wzrosną.
+    note: Used for sources, not your own view – "according to me" sounds odd.
+    notePl: Używamy przy źródłach (według raportu), ale nie mówimy "according to me" – lepiej "in my opinion".
+  - id: b2-01-s-tired
+    kind: sentence
+    en: She said she was tired.
+    enAlt: [ She said that she was tired. ]
+    pl: Powiedziała, że jest zmęczona.
+    plAlt: [ "Ona powiedziała, że jest zmęczona." ]
+    note: 'Backshift: "is" becomes "was", although Polish keeps "jest".'
+    notePl: 'Następstwo czasów: "is" zmienia się w "was", choć po polsku zostaje "jest".'
+  - id: b2-01-s-told-me
+    kind: sentence
+    en: He told me he would call.
+    enAlt: [ He told me that he would call., He told me he'd call., He said he would call., He said he'd call. ]
+    pl: Powiedział mi, że zadzwoni.
+    plAlt: [ "Mówił mi, że zadzwoni.", "Powiedział, że zadzwoni." ]
+    note: '"Tell" needs a person: told ME. Not "said me".'
+    notePl: '"Tell" wymaga osoby: told ME. Nie "said me".'
+  - id: b2-01-s-was-stolen
+    kind: sentence
+    en: My bike was stolen last night.
+    enAlt: [ My bicycle was stolen last night., Someone stole my bike last night. ]
+    pl: Ukradziono mi wczoraj w nocy rower.
+    plAlt: [ Wczoraj w nocy ukradziono mi rower., Ukradli mi wczoraj w nocy rower., Wczoraj w nocy ukradli mi rower., Mój rower został skradziony zeszłej nocy. ]
+  - id: b2-01-s-asked-where
+    kind: sentence
+    en: She asked me where I lived.
+    enAlt: [ She asked where I lived. ]
+    pl: Zapytała mnie, gdzie mieszkam.
+    plAlt: [ "Zapytała, gdzie mieszkam.", "Spytała mnie, gdzie mieszkam." ]
+    note: 'Reported questions use statement word order: not "where did I live".'
+    notePl: 'W pytaniach zależnych szyk jak w zdaniu oznajmującym: "where I lived", a nie "where did I live".'
+  - id: b2-01-s-being-repaired
+    kind: sentence
+    en: The road is being repaired.
+    enAlt: [ The road is being fixed. ]
+    pl: Droga jest w remoncie.
+    plAlt: [ Drogę właśnie remontują., Droga jest remontowana., Trwa remont drogi. ]

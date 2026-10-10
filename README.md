@@ -35,8 +35,9 @@ See [docs/RESEARCH.md](docs/RESEARCH.md) for the evidence behind these choices.
 
 ## Content
 
-`src/content/units/*.ts` — one file per unit (A1–B2), schema in `src/content/types.ts`. Units are picked up
-automatically (files named `a1-…`, `b2-…`). Placement questions live in `src/content/placement.ts`.
+`content/courses/pl-en/units/*.yaml` — one YAML file per unit (A1–B2), schema in `src/content/types.ts`.
+Units are picked up automatically. Placement questions: `content/courses/pl-en/placement.yaml`.
+`npm run validate` checks all content (it also runs before every build).
 Item ids are the progress keys — don't rename them once people are learning.
 
 ## Data & Capacitor later

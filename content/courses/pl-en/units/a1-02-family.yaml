@@ -1,0 +1,120 @@
+# Unit file — see CONTRIBUTING.md. Never change an item's id (progress is stored by it).
+id: a1-02-family
+level: A1
+title: People & family
+titlePl: Ludzie i rodzina
+intro: Talk about your family. Use **this** for things near you and **that** for things further away. Before a singular noun use **a** (a sister) or **an** before a vowel sound (an engineer) – but not after my, your, his, her.
+introPl: "W polskim nie ma przedimków, ale w angielskim przed rzeczownikiem w liczbie pojedynczej zwykle trzeba coś postawić. **a** stawiamy przed spółgłoską w wymowie (a sister, a teacher), **an** przed samogłoską w wymowie (an engineer, an English teacher). Mówimy „She is a teacher”, nigdy „She is teacher”. Po my/your/his/her (mój/twój/jego/jej) przedimka już nie ma: my brother. **This** = ten/ta/to (blisko), **that** = tamten/tamta/tamto (dalej)."
+items:
+  - id: a1-family-mother
+    kind: word
+    en: mother
+    enAlt: [ mum, mom ]
+    pl: mama
+    plAlt: [ matka ]
+    example:
+      en: This is my mother.
+      pl: To jest moja mama.
+    note: '"th" in mother, father, brother is voiced – like a soft buzzing "d".'
+    notePl: „th” w mother, father, brother jest dźwięczne – język między zębami, nie „d” ani „w”.
+  - id: a1-family-father
+    kind: word
+    en: father
+    enAlt: [ dad ]
+    pl: tata
+    plAlt: [ ojciec ]
+    example:
+      en: My father is a doctor.
+      pl: Mój tata jest lekarzem.
+  - id: a1-family-brother
+    kind: word
+    en: brother
+    pl: brat
+    example:
+      en: I have a brother.
+      pl: Mam brata.
+  - id: a1-family-sister
+    kind: word
+    en: sister
+    pl: siostra
+    example:
+      en: Is that your sister?
+      pl: Czy to twoja siostra?
+  - id: a1-family-daughter
+    kind: word
+    en: daughter
+    pl: córka
+    example:
+      en: My daughter is six.
+      pl: Moja córka ma sześć lat.
+    note: 'The "gh" is silent: /ˈdɔːtə/.'
+    notePl: „gh” jest nieme – czytamy mniej więcej „dote”.
+  - id: a1-family-husband
+    kind: word
+    en: husband
+    pl: mąż
+    example:
+      en: Her husband is from Spain.
+      pl: Jej mąż jest z Hiszpanii.
+  - id: a1-family-wife
+    kind: word
+    en: wife
+    pl: żona
+    example:
+      en: This is my wife, Kate.
+      pl: To moja żona, Kate.
+  - id: a1-family-friend
+    kind: word
+    en: friend
+    pl: przyjaciel
+    plAlt: [ przyjaciółka, kolega, koleżanka, znajomy, znajoma ]
+    example:
+      en: Anna is my friend.
+      pl: Anna jest moją przyjaciółką.
+    note: Friend covers both przyjaciel and kolega.
+    notePl: Friend to zarówno „przyjaciel”, jak i „kolega/znajomy” – angielski nie robi tu takiej różnicy.
+  - id: a1-family-child
+    kind: word
+    en: child
+    pl: dziecko
+    example:
+      en: They have one child.
+      pl: Mają jedno dziecko.
+    note: "Irregular plural: one child, two children."
+    notePl: "Nieregularna liczba mnoga: one child, two children (nie: childs)."
+  - id: a1-family-teacher
+    kind: word
+    en: teacher
+    pl: nauczyciel
+    plAlt: [ nauczycielka ]
+    example:
+      en: She is an English teacher.
+      pl: Ona jest nauczycielką angielskiego.
+    note: an English teacher – an, because English starts with a vowel sound.
+    notePl: an English teacher – an, bo następne słowo (English) zaczyna się od samogłoski.
+  - id: a1-family-this-is
+    kind: phrase
+    en: this is
+    pl: to jest
+    plAlt: [ oto, to ]
+    example:
+      en: This is my brother, Adam.
+      pl: To jest mój brat, Adam.
+    note: Use this is to introduce people.
+    notePl: "This is... to najprostszy sposób, by kogoś przedstawić: This is my wife."
+  - id: a1-family-s-she-is-a-teacher
+    kind: sentence
+    en: She is a teacher.
+    enAlt: [ She's a teacher ]
+    pl: Ona jest nauczycielką.
+    plAlt: [ jest nauczycielką ]
+  - id: a1-family-s-is-that-your-wife
+    kind: sentence
+    en: Is that your wife?
+    pl: Czy to twoja żona?
+    plAlt: [ to twoja żona, czy to jest twoja żona, to jest twoja żona, czy to pana żona ]
+  - id: a1-family-s-sister-has-daughter
+    kind: sentence
+    en: My sister has a daughter.
+    enAlt: [ My sister has got a daughter, My sister's got a daughter ]
+    pl: Moja siostra ma córkę.

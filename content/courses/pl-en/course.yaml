@@ -1,0 +1,8 @@
+# Course manifest. One folder per language pair: content/courses/<from>-<to>/
+id: pl-en
+title: English for Polish speakers
+# language the learner already speaks (used for prompts and explanations)
+from: pl
+# language being learned
+to: en
+levels: [A1, A2, B1, B2]

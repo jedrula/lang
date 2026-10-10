@@ -1,0 +1,126 @@
+# Unit file — see CONTRIBUTING.md. Never change an item's id (progress is stored by it).
+id: b2-03-collocations-false-friends
+level: B2
+title: Collocations and false friends
+titlePl: Kolokacje i fałszywi przyjaciele
+intro: '**False friends** look like Polish words but mean something else: *actually* = "właściwie, tak naprawdę" (not *aktualnie* = *currently*), *eventually* = "w końcu" (not *ewentualnie* = *possibly*), *sympathetic* = "współczujący" (not *sympatyczny* = *nice*). **Collocations** are words that naturally go together: we **make** a decision, a mistake, money, but **do** homework, a favour, business. Learn them as chunks rather than translating word by word.'
+introPl: '**Fałszywi przyjaciele** wyglądają jak polskie słowa, ale znaczą co innego: *actually* = "właściwie, tak naprawdę" (a nie "aktualnie" = *currently*), *eventually* = "w końcu, ostatecznie" (a nie "ewentualnie" = *possibly*), *sympathetic* = "współczujący" (a nie "sympatyczny" = *nice*). **Kolokacje** to słowa, które naturalnie występują razem: **make** a decision, a mistake, money, ale **do** homework, a favour, business. Ucz się ich jako całości, zamiast tłumaczyć słowo po słowie.'
+items:
+  - id: b2-03-actually
+    kind: word
+    en: actually
+    pl: właściwie
+    plAlt: [ tak naprawdę, w rzeczywistości, faktycznie ]
+    example:
+      en: Actually, I don't like coffee.
+      pl: Właściwie to nie lubię kawy.
+    note: '"Actually" ≠ aktualnie. "Aktualnie" = currently / at the moment.'
+    notePl: '"Actually" to NIE "aktualnie". "Aktualnie" po angielsku to "currently" lub "at the moment".'
+  - id: b2-03-currently
+    kind: word
+    en: currently
+    enAlt: [ at the moment, at present ]
+    pl: aktualnie
+    plAlt: [ obecnie, w tej chwili, teraz ]
+    example:
+      en: She's currently working in Berlin.
+      pl: Aktualnie pracuje w Berlinie.
+  - id: b2-03-eventually
+    kind: word
+    en: eventually
+    enAlt: [ in the end, finally ]
+    pl: w końcu
+    plAlt: [ ostatecznie, koniec końców ]
+    example:
+      en: After hours of waiting, the bus eventually arrived.
+      pl: Po godzinach czekania autobus w końcu przyjechał.
+    note: '"Eventually" ≠ ewentualnie. "Ewentualnie" = possibly / alternatively / if necessary.'
+    notePl: '"Eventually" to NIE "ewentualnie". "Ewentualnie" po angielsku to "possibly", "alternatively" albo "if necessary".'
+  - id: b2-03-sympathetic
+    kind: word
+    en: sympathetic
+    enAlt: [ understanding ]
+    pl: współczujący
+    plAlt: [ wyrozumiały, pełen zrozumienia ]
+    example:
+      en: My boss was very sympathetic when my dad was ill.
+      pl: Mój szef był bardzo wyrozumiały, kiedy mój tata chorował.
+    note: '"Sympathetic" ≠ sympatyczny. "Sympatyczny" = nice / friendly / likeable.'
+    notePl: '"Sympathetic" to NIE "sympatyczny". "Sympatyczny" po angielsku to "nice", "friendly" albo "likeable".'
+  - id: b2-03-pathetic
+    kind: word
+    en: pathetic
+    pl: żałosny
+    plAlt: [ żenujący, beznadziejny ]
+    example:
+      en: That's a pathetic excuse.
+      pl: To żałosna wymówka.
+    note: '"Pathetic" ≠ patetyczny. "Patetyczny" = pompous / solemn.'
+    notePl: '"Pathetic" to NIE "patetyczny". "Patetyczny" to po angielsku "pompous" lub "solemn".'
+  - id: b2-03-make-a-decision
+    kind: phrase
+    en: make a decision
+    pl: podjąć decyzję
+    plAlt: [ zdecydować się, podejmować decyzję ]
+    example:
+      en: We need to make a decision by Friday.
+      pl: Musimy podjąć decyzję do piątku.
+    note: MAKE a decision (US) or TAKE a decision (UK) – never "do a decision".
+    notePl: MAKE (lub brytyjskie TAKE) a decision – nigdy "do a decision".
+  - id: b2-03-do-a-favour
+    kind: phrase
+    en: do me a favour
+    enAlt: [ do me a favor ]
+    pl: wyświadczyć mi przysługę
+    plAlt: [ zrobić mi przysługę ]
+    example:
+      en: Could you do me a favour and water my plants?
+      pl: Możesz wyświadczyć mi przysługę i podlać moje kwiaty?
+  - id: b2-03-pay-attention
+    kind: phrase
+    en: pay attention
+    pl: zwracać uwagę
+    plAlt: [ uważać, zwrócić uwagę ]
+    example:
+      en: Please pay attention to the details.
+      pl: Proszę zwracać uwagę na szczegóły.
+    note: PAY attention, not "turn attention".
+    notePl: PAY attention, a nie "turn attention" (kalka z "zwracać uwagę").
+  - id: b2-03-s-actually-currently
+    kind: sentence
+    en: I'm currently looking for a job.
+    enAlt: [ I am currently looking for a job., I'm looking for a job at the moment., I am looking for a job at the moment., I'm currently looking for work. ]
+    pl: Aktualnie szukam pracy.
+    plAlt: [ Obecnie szukam pracy., W tej chwili szukam pracy. ]
+    note: Not "I'm actually looking for a job".
+    notePl: Nie "I'm actually looking for a job" – to znaczyłoby "tak naprawdę szukam pracy".
+  - id: b2-03-s-possibly
+    kind: sentence
+    en: We can meet on Monday or possibly on Tuesday.
+    enAlt: [ We can meet on Monday or maybe on Tuesday., "We can meet on Monday, or alternatively on Tuesday.", We can meet on Monday or perhaps on Tuesday. ]
+    pl: Możemy się spotkać w poniedziałek albo ewentualnie we wtorek.
+    plAlt: [ Możemy spotkać się w poniedziałek albo ewentualnie we wtorek., Możemy się spotkać w poniedziałek lub ewentualnie we wtorek. ]
+    note: '"Ewentualnie" = possibly / alternatively, not "eventually".'
+    notePl: '"Ewentualnie" = possibly / alternatively, a nie "eventually".'
+  - id: b2-03-s-homework
+    kind: sentence
+    en: Have you done your homework?
+    enAlt: [ Did you do your homework? ]
+    pl: Odrobiłeś pracę domową?
+    plAlt: [ Odrobiłaś pracę domową?, Zrobiłeś pracę domową?, Zrobiłaś pracę domową?, Czy odrobiłeś pracę domową?, Czy odrobiłaś pracę domową?, Odrobiłeś lekcje?, Odrobiłaś lekcje? ]
+    note: DO homework – not "make homework".
+    notePl: DO homework – a nie "make homework".
+  - id: b2-03-s-nice-guy
+    kind: sentence
+    en: Your brother is really nice.
+    enAlt: [ Your brother is very nice., Your brother is really friendly., Your brother is really likeable. ]
+    pl: Twój brat jest naprawdę sympatyczny.
+    plAlt: [ Twój brat jest bardzo sympatyczny., Twój brat jest naprawdę miły., Twój brat jest bardzo miły. ]
+    note: Not "sympathetic" – that means he feels sorry for you.
+    notePl: Nie "sympathetic" – to znaczy "współczujący".
+  - id: b2-03-s-make-money
+    kind: sentence
+    en: He makes a lot of money.
+    enAlt: [ He earns a lot of money., He makes lots of money., He earns lots of money. ]
+    pl: On dużo zarabia.
+    plAlt: [ Zarabia dużo pieniędzy., On zarabia dużo pieniędzy., Dużo zarabia. ]

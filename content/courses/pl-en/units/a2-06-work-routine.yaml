@@ -1,0 +1,120 @@
+# Unit file — see CONTRIBUTING.md. Never change an item's id (progress is stored by it).
+id: a2-06-work-routine
+level: A2
+title: Work and daily routine
+titlePl: Praca i codzienny rozkład dnia
+intro: "Adverbs of frequency (**always, usually, often, sometimes, never**) go **before** the main verb but **after** *be*: *I often work late. She is always tired.* For polite requests use **Can you…?** or the more polite **Could you…?**; ask for permission with **Can / Could I…?**"
+introPl: "Przysłówki częstotliwości (**always** – zawsze, **often** – często, **sometimes** – czasami, **never** – nigdy) stawiamy **przed** czasownikiem głównym, ale **po** *be*: *I often work late*, *She is always tired*. Po **never** nie dodajemy drugiego przeczenia: *I never eat meat* (po polsku „nigdy **nie** jem”). Prośby: **Can you…?** (Możesz…?), grzeczniej **Could you…?** (Czy mógłbyś…?); o pozwolenie pytamy **Can / Could I…?** (Czy mogę…?)."
+items:
+  - id: a2-06-always
+    kind: word
+    en: always
+    pl: zawsze
+    example:
+      en: He is always late for work.
+      pl: On zawsze spóźnia się do pracy.
+    note: "After be: he is always late."
+    notePl: "Po *be*: *he is always late*, nie *he always is late*."
+  - id: a2-06-often
+    kind: word
+    en: often
+    pl: często
+    example:
+      en: We often have meetings on Mondays.
+      pl: Często mamy zebrania w poniedziałki.
+  - id: a2-06-sometimes
+    kind: word
+    en: sometimes
+    pl: czasami
+    plAlt: [ czasem, niekiedy ]
+    example:
+      en: I sometimes work from home.
+      pl: Czasami pracuję z domu.
+  - id: a2-06-never
+    kind: word
+    en: never
+    pl: nigdy
+    example:
+      en: She never drinks coffee at work.
+      pl: Ona nigdy nie pije kawy w pracy.
+    note: "Only one negative: she never drinks (not \"never doesn't drink\")."
+    notePl: "Po polsku „nigdy nie”, po angielsku wystarczy samo *never*: *she never drinks*."
+  - id: a2-06-meeting
+    kind: word
+    en: meeting
+    pl: spotkanie
+    plAlt: [ zebranie ]
+    example:
+      en: I have a meeting at ten.
+      pl: Mam spotkanie o dziesiątej.
+  - id: a2-06-boss
+    kind: word
+    en: boss
+    pl: szef
+    plAlt: [ szefowa, przełożony, przełożona ]
+    example:
+      en: My boss is very friendly.
+      pl: Mój szef jest bardzo miły.
+  - id: a2-06-colleague
+    kind: word
+    en: colleague
+    enAlt: [ co-worker, coworker ]
+    pl: kolega z pracy
+    plAlt: [ koleżanka z pracy, współpracownik, współpracowniczka ]
+    example:
+      en: My colleague helped me today.
+      pl: Kolega z pracy mi dziś pomógł.
+    note: A colleague is someone you work with, not just any friend.
+    notePl: „Kolega” w sensie znajomego to *friend*; *colleague* to tylko ktoś z pracy.
+  - id: a2-06-salary
+    kind: word
+    en: salary
+    pl: pensja
+    plAlt: [ wynagrodzenie, pobory ]
+    example:
+      en: Her salary is quite good.
+      pl: Jej pensja jest całkiem dobra.
+  - id: a2-06-get-up
+    kind: phrase
+    en: get up
+    pl: wstawać
+    plAlt: [ wstać ]
+    example:
+      en: I get up at six on weekdays.
+      pl: W dni robocze wstaję o szóstej.
+  - id: a2-06-go-to-bed
+    kind: phrase
+    en: go to bed
+    pl: iść spać
+    plAlt: [ pójść spać, chodzić spać, kłaść się spać, położyć się spać ]
+    example:
+      en: I usually go to bed at eleven.
+      pl: Zwykle chodzę spać o jedenastej.
+  - id: a2-06-could-you-help-me
+    kind: phrase
+    en: Could you help me?
+    enAlt: [ Can you help me? ]
+    pl: Czy mógłbyś mi pomóc?
+    plAlt: [ Mógłbyś mi pomóc?, Czy mogłabyś mi pomóc?, Mogłabyś mi pomóc?, Czy mógłby mi pan pomóc?, Czy mogłaby mi pani pomóc?, Czy możesz mi pomóc? ]
+    example:
+      en: Excuse me, could you help me?
+      pl: Przepraszam, czy mógłby mi pan pomóc?
+    note: Could is more polite than can.
+    notePl: "*Could* brzmi grzeczniej niż *can* – jak „czy mógłbyś” zamiast „możesz”."
+  - id: a2-06-leave-early
+    kind: sentence
+    en: Can I leave early today?
+    enAlt: [ Could I leave early today? ]
+    pl: Czy mogę dziś wyjść wcześniej?
+    plAlt: [ Mogę dziś wyjść wcześniej?, Czy mogę dzisiaj wyjść wcześniej?, Czy mogę wyjść dziś wcześniej?, Mogę dzisiaj wyjść wcześniej? ]
+  - id: a2-06-send-report
+    kind: sentence
+    en: Could you send me the report?
+    enAlt: [ Can you send me the report? ]
+    pl: Czy mógłbyś przesłać mi raport?
+    plAlt: [ Czy mógłbyś mi przesłać raport?, Czy mógłbyś wysłać mi raport?, Czy mógłbyś mi wysłać raport?, Czy mogłabyś przesłać mi raport?, Czy mogłabyś wysłać mi raport?, Mógłbyś wysłać mi raport? ]
+  - id: a2-06-start-work-nine
+    kind: sentence
+    en: I usually start work at nine.
+    pl: Zwykle zaczynam pracę o dziewiątej.
+    plAlt: [ Zazwyczaj zaczynam pracę o dziewiątej., Zwykle zaczynam pracować o dziewiątej. ]

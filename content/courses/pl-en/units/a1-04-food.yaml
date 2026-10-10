@@ -1,0 +1,121 @@
+# Unit file — see CONTRIBUTING.md. Never change an item's id (progress is stored by it).
+id: a1-04-food
+level: A1
+title: Food & drink
+titlePl: Jedzenie i picie
+intro: Order food and say what you like. **I'd like** is more polite than **I want**. Use **some** in positive sentences (I'd like some water) and **any** in questions and negatives (We don't have any bread). Words like water, bread and milk are uncountable – no a/an and no plural.
+introPl: "Zamawiamy jedzenie i mówimy, co lubimy. **I'd like** (poproszę, chciałbym) jest grzeczniejsze niż **I want** (chcę) – w restauracji lepiej mówić I'd like. **some** (trochę, jakieś) używamy w zdaniach twierdzących: I'd like some water. **any** – w pytaniach i przeczeniach: We don't have any bread. Rzeczowniki niepoliczalne (water, bread, milk, coffee) nie mają a/an ani liczby mnogiej: some bread, nie „a bread”."
+items:
+  - id: a1-food-water
+    kind: word
+    en: water
+    pl: woda
+    example:
+      en: A glass of water, please.
+      pl: Poproszę szklankę wody.
+  - id: a1-food-coffee
+    kind: word
+    en: coffee
+    pl: kawa
+    example:
+      en: I like coffee with milk.
+      pl: Lubię kawę z mlekiem.
+  - id: a1-food-tea
+    kind: word
+    en: tea
+    pl: herbata
+    example:
+      en: Tea with milk, please.
+      pl: Poproszę herbatę z mlekiem.
+  - id: a1-food-bread
+    kind: word
+    en: bread
+    pl: chleb
+    plAlt: [ pieczywo ]
+    example:
+      en: We need some bread.
+      pl: Potrzebujemy chleba.
+    note: "Uncountable: some bread or a loaf of bread, not a bread."
+    notePl: "Niepoliczalne: some bread albo a loaf of bread (bochenek), nie „a bread”."
+  - id: a1-food-apple
+    kind: word
+    en: apple
+    pl: jabłko
+    example:
+      en: I want an apple.
+      pl: Chcę jabłko.
+    note: an apple – an before a vowel sound.
+    notePl: an apple – an, bo apple zaczyna się od samogłoski.
+  - id: a1-food-chicken
+    kind: word
+    en: chicken
+    pl: kurczak
+    plAlt: [ kurczę, kura ]
+    example:
+      en: I like chicken and rice.
+      pl: Lubię kurczaka z ryżem.
+  - id: a1-food-breakfast
+    kind: word
+    en: breakfast
+    pl: śniadanie
+    example:
+      en: I have breakfast at eight.
+      pl: Jem śniadanie o ósmej.
+    note: We say have breakfast (no article).
+    notePl: Mówimy have breakfast (jeść śniadanie) – bez przedimka.
+  - id: a1-food-i-want
+    kind: phrase
+    en: I want
+    pl: chcę
+    example:
+      en: I want a sandwich.
+      pl: Chcę kanapkę.
+    note: I want can sound rude when ordering – use I'd like.
+    notePl: W sklepie czy restauracji I want brzmi dość bezceremonialnie – grzeczniej jest powiedzieć I'd like.
+  - id: a1-food-id-like
+    kind: phrase
+    en: I'd like
+    enAlt: [ I would like ]
+    pl: poproszę
+    plAlt: [ chciałbym, chciałabym, chciałbym prosić, chciałabym prosić ]
+    example:
+      en: I'd like a coffee, please.
+      pl: Poproszę kawę.
+  - id: a1-food-i-dont-like
+    kind: phrase
+    en: I don't like
+    enAlt: [ I do not like ]
+    pl: nie lubię
+    example:
+      en: I don't like fish.
+      pl: Nie lubię ryb.
+  - id: a1-food-the-bill-please
+    kind: phrase
+    en: the bill, please
+    enAlt: [ "the check, please", "can I have the bill, please", "could I have the bill, please", "can we have the bill, please" ]
+    pl: poproszę rachunek
+    plAlt: [ "rachunek, proszę", proszę o rachunek, poprosimy rachunek ]
+    example:
+      en: Excuse me, the bill, please.
+      pl: Przepraszam, poproszę rachunek.
+    note: Bill is British English; Americans say check.
+    notePl: Bill to wersja brytyjska, w USA mówi się check.
+  - id: a1-food-s-id-like-some-water
+    kind: sentence
+    en: I'd like some water.
+    enAlt: [ I would like some water ]
+    pl: Poproszę wodę.
+    plAlt: [ poproszę wody, poproszę trochę wody, chciałbym wody, chciałabym wody, chciałbym trochę wody, chciałabym trochę wody ]
+  - id: a1-food-s-do-you-like-chicken
+    kind: sentence
+    en: Do you like chicken?
+    pl: Czy lubisz kurczaka?
+    plAlt: [ lubisz kurczaka, czy pan lubi kurczaka, czy pani lubi kurczaka ]
+  - id: a1-food-s-no-bread
+    kind: sentence
+    en: We don't have any bread.
+    enAlt: [ We do not have any bread, We haven't got any bread, We have not got any bread ]
+    pl: Nie mamy chleba.
+    plAlt: [ nie mamy żadnego chleba ]
+    note: "In negatives use any: We don't have any bread."
+    notePl: "W przeczeniach używamy any. Uwaga: jedno przeczenie wystarczy – nie mówimy „We don't have no bread”."
