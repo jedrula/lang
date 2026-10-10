@@ -2,6 +2,8 @@
 
 A deliberately simple, non-gamified language app built around how memory works.
 Web first (Vite + React + TypeScript); designed to be wrapped with Capacitor later.
+Free and open source (MIT) — contributions, especially content and native-speaker review, are very welcome:
+see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ```bash
 npm install
@@ -42,3 +44,7 @@ Item ids are the progress keys — don't rename them once people are learning.
 All progress is one JSON blob in `localStorage` behind `src/engine/storage.ts`; export/import is in Settings.
 For Capacitor: swap that adapter for `@capacitor/preferences` (or SQLite) and `src/engine/speech.ts` for
 `@capacitor-community/text-to-speech`.
+
+## Licence
+
+[MIT](LICENSE)
